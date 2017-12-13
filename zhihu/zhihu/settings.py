@@ -90,10 +90,10 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # Mysql Configuration
-MYSQL_HOST = '127.0.0.1'
-MYSQL_DBNAME = 'Scrapy_test'
-MYSQL_USER = 'root'
-MYSQL_PASSWD = 'password'
+MYSQL_HOST = '192.168.103.237'
+MYSQL_DBNAME = 'clf'
+MYSQL_USER = 'cnki'
+MYSQL_PASSWD = 'cnki'
 MYSQL_CHARSET = 'utf8'
 MYSQL_PORT = 3306
 
@@ -112,8 +112,8 @@ DEFAULT_REQUEST_HEADERS = {
 # Account information and post data
 POST_DATA = {
         'captcha_type': 'cn',
-        'email': 'Your_email',
-        'password': 'Your_password',
+        'email': '18810748906',
+        'password': 'qwe123456!@#$%^',
     }
 
 # Count of question and answer
