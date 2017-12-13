@@ -110,10 +110,11 @@ DEFAULT_REQUEST_HEADERS = {
     }
 
 # Account information and post data
+
 POST_DATA = {
         'captcha_type': 'cn',
-        'email': '18810748906',
-        'password': 'qwe123456!@#$%^',
+        'email': 'your email',
+        'password': 'your password',
     }
 
 # Count of question and answer
